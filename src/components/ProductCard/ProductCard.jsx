@@ -13,7 +13,6 @@ const ProductCard = ({ product }) => {
         e.stopPropagation()
         e.preventDefault()
         dispatch(addToCart(product))
-        alert("product added!")
     }
 
     return (
